@@ -24,6 +24,8 @@ LOCAL_PATH := device/samsung/n5120
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n5120_defconfig
++TARGET_GCC_VERSION_ARM := arm-cortex_a9-linux-gnueabihf-linaro_4.8.3-2014.02
++TARGET_GCC_VERSION_AND := 4.8-sm
 
 # RIL
 COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND='{ "ril.ks.status", AID_SYSTEM, 0 },'
