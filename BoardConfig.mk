@@ -29,7 +29,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n5120_defconfig
 COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND='{ "ril.ks.status", AID_SYSTEM, 0 },'
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/n5120/rootdir/fstab.smdk4x12
+TARGET_RECOVERY_FSTAB := device/samsung/kona-common/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
 BOARD_RECOVERY_SWIPE := true
 BOARD_RECOVERY_SWIPE_SWAPXY := true
