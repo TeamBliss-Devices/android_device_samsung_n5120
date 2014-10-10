@@ -1,14 +1,20 @@
 [
     {
-        "repository": "android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common"
+        "remote": "vr",    
+        "repository": "device_samsung_kona-common",
+        "target_path": "device/samsung/kona-common"
+        "revision": "kk44"        
     },
     {
+        "remote": "Co-BeanStalk",    
+        "repository": "Pimped_DracoKernel",
+        "target_path": "kernel/samsung/smdk4412"
+        "revision": "kk4.4"        
+    }   
+    {
+        "remote": "cm",    
         "repository": "android_device_samsung_smdk4412-qcom-common",
         "target_path": "device/samsung/smdk4412-qcom-common"
-    },
-    {
-        "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "revision": "cm-11.0"         
     }
 ]
