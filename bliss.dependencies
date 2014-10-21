@@ -6,7 +6,7 @@
         "revision": "kk44"        
     },
     {
-        "remote": "Co-BeanStalk",    
+        "remote": "TeamBliss",    
         "repository": "Pimped_DracoKernel",
         "target_path": "kernel/samsung/smdk4412",
         "revision": "kk4.4"        
@@ -18,7 +18,7 @@
         "revision": "cm-11.0"         
     },
     {
-        "remote": "Co-BeanStalk",    
+        "remote": "TeamBliss",    
         "repository": "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
         "revision": "kk4.4"        
