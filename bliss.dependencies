@@ -1,26 +1,32 @@
 [
     {
-        "remote": "cm",    
+        "remote": "TeamBliss-Devices",    
         "repository": "android_device_samsung_kona-common",
         "target_path": "device/samsung/kona-common",
-        "revision": "cm-12.0"        
+        "revision": "lp5.1"        
     },
     {
-        "remote": "cm",    
-        "repository": "android_kernel_samsung_smdk4412",
+        "remote": "TeamBliss-Devices",    
+        "repository": "Blissful_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "revision": "cm-12.0"        
-    },   
+        "revision": "lp5.1"        
+    },
+    {
+        "remote": "TeamBliss-Devices",    
+        "repository": "android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "revision": "lp5.1-n8x"        
+    },
+    {
+        "remote": "TeamBliss-Devices",    
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "revision": "lp5.1"
+    }, 
     {
         "remote": "cm",    
         "repository": "android_device_samsung_smdk4412-qcom-common",
         "target_path": "device/samsung/smdk4412-qcom-common",
-        "revision": "cm-12.0"         
-    },
-    {
-        "remote": "cm",    
-        "repository": "android_device_samsung_smdk4412-common",
-        "target_path": "device/samsung/smdk4412-common",
-        "revision": "cm-12.0"        
-    }              
+        "revision": "cm-12.1"         
+    }
 ]
