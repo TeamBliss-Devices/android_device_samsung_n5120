@@ -52,10 +52,5 @@ $(call inherit-product, device/samsung/smdk4412-qcom-common/common.mk)
 # Include common makefile
 $(call inherit-product, device/samsung/kona-common/kona-common.mk)
 
-# Audio configuration
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    $(LOCAL_PATH)/audio/audio_effects.conf:system/etc/audio_effects.conf  
-
 
 
